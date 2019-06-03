@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SupSudoku.dir/main.cpp.o CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o  -o SupSudoku 

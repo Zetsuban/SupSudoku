@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zetsu/CLionProjects/SupSudoku/sudokuGen.cpp
+sudokuGen.h
+/home/zetsu/CLionProjects/SupSudoku/sudokuGen.h
+iostream
+-
+vector
+-
+algorithm
+-
+random
+-
+ctime
+-
+
+/home/zetsu/CLionProjects/SupSudoku/sudokuGen.h
+set
+-
+deque
+-
+memory
+-
+sstream
+-
+
