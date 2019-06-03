@@ -8,6 +8,7 @@ Sudoku generator and game in C++
 ## TODO
 
 - [ ] AI to solve the sudoku
+- [ ] Proper difficulty rating 
 - [ ] Use flags to differentiate only generating or playing
 - [ ] Add time tracker for generating mode
 
