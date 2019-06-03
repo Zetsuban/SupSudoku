@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zetsu/CLionProjects/SupSudoku
+CMAKE_SOURCE_DIR = /home/zetsu/dev/C++/SupSudoku
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zetsu/dev/C++/SupSudoku/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SupSudoku.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/SupSudoku.dir/flags.make
 
 CMakeFiles/SupSudoku.dir/main.cpp.o: CMakeFiles/SupSudoku.dir/flags.make
 CMakeFiles/SupSudoku.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SupSudoku.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SupSudoku.dir/main.cpp.o -c /home/zetsu/CLionProjects/SupSudoku/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SupSudoku.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SupSudoku.dir/main.cpp.o -c /home/zetsu/dev/C++/SupSudoku/main.cpp
 
 CMakeFiles/SupSudoku.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SupSudoku.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zetsu/CLionProjects/SupSudoku/main.cpp > CMakeFiles/SupSudoku.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zetsu/dev/C++/SupSudoku/main.cpp > CMakeFiles/SupSudoku.dir/main.cpp.i
 
 CMakeFiles/SupSudoku.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SupSudoku.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zetsu/CLionProjects/SupSudoku/main.cpp -o CMakeFiles/SupSudoku.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zetsu/dev/C++/SupSudoku/main.cpp -o CMakeFiles/SupSudoku.dir/main.cpp.s
 
 CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o: CMakeFiles/SupSudoku.dir/flags.make
 CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o: ../sudokuGen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o -c /home/zetsu/CLionProjects/SupSudoku/sudokuGen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o -c /home/zetsu/dev/C++/SupSudoku/sudokuGen.cpp
 
 CMakeFiles/SupSudoku.dir/sudokuGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SupSudoku.dir/sudokuGen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zetsu/CLionProjects/SupSudoku/sudokuGen.cpp > CMakeFiles/SupSudoku.dir/sudokuGen.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zetsu/dev/C++/SupSudoku/sudokuGen.cpp > CMakeFiles/SupSudoku.dir/sudokuGen.cpp.i
 
 CMakeFiles/SupSudoku.dir/sudokuGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SupSudoku.dir/sudokuGen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zetsu/CLionProjects/SupSudoku/sudokuGen.cpp -o CMakeFiles/SupSudoku.dir/sudokuGen.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zetsu/dev/C++/SupSudoku/sudokuGen.cpp -o CMakeFiles/SupSudoku.dir/sudokuGen.cpp.s
 
 # Object files for target SupSudoku
 SupSudoku_OBJECTS = \
@@ -95,7 +95,7 @@ SupSudoku: CMakeFiles/SupSudoku.dir/main.cpp.o
 SupSudoku: CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o
 SupSudoku: CMakeFiles/SupSudoku.dir/build.make
 SupSudoku: CMakeFiles/SupSudoku.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SupSudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SupSudoku"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SupSudoku.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/SupSudoku.dir/clean:
 .PHONY : CMakeFiles/SupSudoku.dir/clean
 
 CMakeFiles/SupSudoku.dir/depend:
-	cd /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zetsu/CLionProjects/SupSudoku /home/zetsu/CLionProjects/SupSudoku /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles/SupSudoku.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zetsu/dev/C++/SupSudoku/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zetsu/dev/C++/SupSudoku /home/zetsu/dev/C++/SupSudoku /home/zetsu/dev/C++/SupSudoku/cmake-build-debug /home/zetsu/dev/C++/SupSudoku/cmake-build-debug /home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles/SupSudoku.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SupSudoku.dir/depend
 

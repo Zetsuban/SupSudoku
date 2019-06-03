@@ -82,7 +82,7 @@ bool SudokuBoard::genSudoku(int index) {
 
     for ( auto nb : available ) {
         cell->value = nb;
-        display();
+        //display();
 
         if (index == 80 || genSudoku(index + 1)) {
             return true;
@@ -111,7 +111,7 @@ std::shared_ptr<Cell> SudokuBoard::at(coord pos) {
 SudokuBoard genBoard() {
     SudokuBoard board{};
     board.doGenSudoku();
-    //board.Puzzled();
+    board.Puzzled();
     return board;
 }
 

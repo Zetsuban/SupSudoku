@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zetsu/CLionProjects/SupSudoku/main.cpp" "/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles/SupSudoku.dir/main.cpp.o"
-  "/home/zetsu/CLionProjects/SupSudoku/sudokuGen.cpp" "/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o"
+  "/home/zetsu/dev/C++/SupSudoku/main.cpp" "/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles/SupSudoku.dir/main.cpp.o"
+  "/home/zetsu/dev/C++/SupSudoku/sudokuGen.cpp" "/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles/SupSudoku.dir/sudokuGen.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

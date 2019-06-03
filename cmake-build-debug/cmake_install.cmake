@@ -1,4 +1,4 @@
-# Install script for directory: /home/zetsu/CLionProjects/SupSudoku
+# Install script for directory: /home/zetsu/dev/C++/SupSudoku
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

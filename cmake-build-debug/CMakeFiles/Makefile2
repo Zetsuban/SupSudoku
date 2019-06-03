@@ -59,10 +59,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zetsu/CLionProjects/SupSudoku
+CMAKE_SOURCE_DIR = /home/zetsu/dev/C++/SupSudoku
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zetsu/dev/C++/SupSudoku/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/SupSudoku.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug
 CMakeFiles/SupSudoku.dir/all:
 	$(MAKE) -f CMakeFiles/SupSudoku.dir/build.make CMakeFiles/SupSudoku.dir/depend
 	$(MAKE) -f CMakeFiles/SupSudoku.dir/build.make CMakeFiles/SupSudoku.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target SupSudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target SupSudoku"
 .PHONY : CMakeFiles/SupSudoku.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/SupSudoku.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SupSudoku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SupSudoku.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zetsu/CLionProjects/SupSudoku/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zetsu/dev/C++/SupSudoku/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SupSudoku.dir/rule
 
 # Convenience name for target.

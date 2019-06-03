@@ -22,6 +22,7 @@ int main() {
 
     std::cout << output.str();
     */
+
     std::string input;
 
     board = genBoard();

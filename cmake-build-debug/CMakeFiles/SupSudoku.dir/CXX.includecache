@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/zetsu/CLionProjects/SupSudoku/sudokuGen.cpp
+/home/zetsu/dev/C++/SupSudoku/main.cpp
 sudokuGen.h
-/home/zetsu/CLionProjects/SupSudoku/sudokuGen.h
+/home/zetsu/dev/C++/SupSudoku/sudokuGen.h
+iostream
+-
+thread
+-
+
+/home/zetsu/dev/C++/SupSudoku/sudokuGen.cpp
+sudokuGen.h
+/home/zetsu/dev/C++/SupSudoku/sudokuGen.h
 iostream
 -
 vector
@@ -20,7 +28,7 @@ random
 ctime
 -
 
-/home/zetsu/CLionProjects/SupSudoku/sudokuGen.h
+/home/zetsu/dev/C++/SupSudoku/sudokuGen.h
 set
 -
 deque
